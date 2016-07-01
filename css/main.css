@@ -1,1 +1,37 @@
+@import "sections/menu.css";
 @import "sections/home.css";
+@import "sections/grid.css";
+@import "sections/btn.css";
+@import "sections/staff.css";
+
+section#home{
+  width: 100%;
+  background: url('../resources/media/images/imgseven.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #EA1E53;
+  color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+section#home .col-1{
+  max-width: 960px;
+  padding: 225px 0;
+}
+
+#staff_sub{
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+section#home .heading{
+  font-size: 9.5rem;
+}
+
+@media (max-width: 886px){
+
+}
+
+// Section STAFF
+

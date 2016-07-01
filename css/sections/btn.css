@@ -1,0 +1,30 @@
+.btn, a.btn{
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  outline: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.btn.dft{
+  border-radius: 100px;
+}
+
+.btn.full{
+  background: #CA12A1;
+  border-radius: 100px;
+}
+
+.btn.full:hover{
+  background: #AD128A;
+}
+
+.btn.dft:hover{
+  background: rgba(255,255,255,.1);
+}

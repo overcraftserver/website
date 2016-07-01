@@ -1,0 +1,116 @@
+header#menu, header.dsk{
+  position: fixed;
+  width: 100%;
+  font-size: 20px;
+  background: rgba(0,0,0,.2);
+}
+
+header#menu.toblack, header.dsk.toblack{
+  background: black;
+  transition: background .5s ease-in-out;
+}
+
+header#menu.toblack.tofade, header.dsk.toblack.tofade{
+  background: rgba(0,0,0,.2);
+}
+
+header#menu, header.dsk nav{
+  padding: 8px 25px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+header#menu, header.dsk nav ul{
+  list-style: none;
+  display: inline-flex;
+  float: right;
+  text-transform: uppercase;
+}
+
+header#menu, header.dsk nav ul li{
+  margin-right: 15px;
+}
+
+header#menu, header.dsk nav ul li a{
+  color: #fff;
+}
+
+header#menu, header.dsk nav ul li:last-child{
+  margin-right: 0;
+}
+
+#site_name_dsk{
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+}
+
+//Menu Mobile
+header.mob{
+  width: 100%;
+  height: 100%;
+  background: pink;
+}
+
+header.mob nav{
+  padding: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100%;
+  background: blue;
+  color: #fff;
+}
+
+header.mob nav a#site_name_mob{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+header.mob nav ul{
+  display: none;
+  list-style: none;
+  padding: 50px 0;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+header.mob nav ul li{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+header.mob nav ul li a{
+  color: #fff;
+}
+
+header.mob nav ul.ul_toggle{
+  display: block;
+}
+
+.mob_menuToggle{
+  float: right;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+header.mob nav ul li:last-child{
+  margin-bottom: 0;
+}
+
+@media (min-width: 886px){
+  header.mob{
+    display: none;
+  }
+}
+
+@media (max-width: 885px){
+  header#menu, header.dsk{
+    display: none;
+    background: red;
+  }
+}
