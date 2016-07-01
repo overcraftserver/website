@@ -5,13 +5,13 @@ header#menu, header.dsk{
   background: rgba(0,0,0,.2);
 }
 
-header#menu.toblack, header.dsk.toblack{
-  background: black;
+.toblack{
+  background: black !important;
   transition: background .5s ease-in-out;
 }
 
-header#menu.toblack.tofade, header.dsk.toblack.tofade{
-  background: rgba(0,0,0,.2);
+.tofade{
+  background: rgba(0,0,0,.2) !important;
 }
 
 header#menu, header.dsk nav{
@@ -53,15 +53,16 @@ header#menu, header.dsk nav ul li:last-child{
 header.mob{
   width: 100%;
   height: 100%;
-  background: pink;
 }
 
 header.mob nav{
+  position: fixed;
   padding: 25px;
   box-sizing: border-box;
   text-align: center;
-  height: 100%;
-  background: blue;
+  height: 90px auto;
+  width: 100%;
+  background: rgba(0,0,0,.2);
   color: #fff;
 }
 
