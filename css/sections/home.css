@@ -50,7 +50,7 @@ header.mob nav{
   padding: 25px;
   box-sizing: border-box;
   text-align: center;
-  height: 100vh;
+  height: 100%;
   background: blue;
   color: #fff;
 }
@@ -62,6 +62,7 @@ header.mob nav a#site_name_mob{
 }
 
 header.mob nav ul{
+  display: none;
   list-style: none;
   padding: 50px 0;
   margin: 0;
@@ -75,6 +76,16 @@ header.mob nav ul li{
 
 header.mob nav ul li a{
   color: #fff;
+}
+
+header.mob nav ul.ul_toggle{
+  display: block;
+}
+
+.mob_menuToggle{
+  float: right;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 header.mob nav ul li:last-child{
