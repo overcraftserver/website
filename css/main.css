@@ -13,6 +13,7 @@ section#home{
   color: #fff;
   box-sizing: border-box;
   text-align: center;
+
 }
 
 section#home .col-1{
@@ -27,10 +28,7 @@ section#home .col-1{
 
 section#home .heading{
   font-size: 9.5rem;
-}
-
-@media (max-width: 886px){
-
+  transition: font-size .1s ease-in-out;
 }
 
 // Section Dual
@@ -58,15 +56,30 @@ section#dual{
 #col-loja{
   padding: 90px 0;
   background: url("../resources/media/images/imgseven.png");
+  background-size: cover;
+  background-position: center;
 }
 
 #col-sup{
   padding: 50px 0;
   background: url("../resources/media/images/background.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .col-50 .col-1{
   max-width: 490px;
   width: 100%;
   margin: 0;
+}
+
+@media (max-width: 886px){
+  section#home .heading{
+    font-size: 3.1rem;
+  }
+
+  .big{
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
 }

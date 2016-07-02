@@ -1,10 +1,18 @@
 section#staff{
-  background: #49107A;
-  max-height: 90px;
   padding: 0;
-  margin: 0;
+  text-align: center;
+  background: #49107A;
 }
 
 section#staff a.btn{
   margin: 0 50px;
+}
+
+@media (max-width: 886px){
+  section#staff img{
+    display: none;
+  }
+  section#staff{
+    padding: 20px 0;
+  }
 }

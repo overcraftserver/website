@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,400,400italic,700,700italic);
 
+::selection{
+  background: #000;
+  color: #fff;
+}
+
 body{
   background: #ffffff;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
