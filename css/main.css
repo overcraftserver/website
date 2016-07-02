@@ -33,5 +33,40 @@ section#home .heading{
 
 }
 
-// Section STAFF
+// Section Dual
 
+section#dual{
+}
+
+#suporte{
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+#loja{
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.big{
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+}
+
+#col-loja{
+  padding: 90px 0;
+  background: url("../resources/media/images/imgseven.png");
+}
+
+#col-sup{
+  padding: 50px 0;
+  background: url("../resources/media/images/background.jpg");
+}
+
+.col-50 .col-1{
+  max-width: 490px;
+  width: 100%;
+  margin: 0;
+}

@@ -9,10 +9,12 @@ body{
   font-weight: 400;
 }
 
+h1{line-height: 2.4rem;}
+
 .read{
   font-size: 1.1rem;
   letter-spacing: 1px;
-  line-height: 1.1rem;
+  line-height: 1.3rem;
 }
 
 .cf:before,
