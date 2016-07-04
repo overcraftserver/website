@@ -1,3 +1,4 @@
+<?php include app/config.php ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,6 +46,9 @@
     <section id="home">
       <div class="flex flex-center">
         <div class="col-1">
+          <video id="videobg" autoplay="true" muted loop>
+            <source src="resources/media/video/nh_lapse.webm" type="video/webm">
+          </video>
           <h1 class="heading">OVERCRAFT</h1>
           <p class="read">Full PVP, RankUP, MiniGames, Survival e muito mais !</p>
           <a class="btn full">PAGINA DO SERVIDOR</a>
@@ -97,13 +101,56 @@
       <div class="flex flex-center">
         <div class="col-50 flex flex-middle flex-center" id="col-blog">
           <section id="blog">
-            
+            <h1 class="big">Fique informado !</h1>
+            <p class="read">Fique totalmente informado sobre promoções, eventos, novidades, ou quaisquer mudanças antecipadamente.</p>
+            <a href="#" class="btn full">BLOG</a>
           </section>
         </div>
         <div class="col-50 flex flex-middle flex-center" id="col-downloads">
           <section id="downloads">
-            
+            <h1 class="big">Visite a area de Downloads !</h1>
+            <p class="read">Arquivos, imagens, texturas, kits e muito mais.</p>
+            <a href="#" class="btn full">AREA DE DOWNLOADS</a>
           </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="ft" style="">
+      <div class="flex flex-center flex-space-around">
+        <div class="col-c">
+          <h4>Páginas</h4>
+          <ul>
+            <li>Incio</li>
+            <li>Staff</li>
+            <li>Loja</li>
+            <li>Blog</li>
+            <li>Downloads</li>
+            <li>Server</li>
+            <li>Login</li>
+          </ul>
+        </div>
+        <div class="col-c">
+          <h4>Unicos</h4>
+          <ul>
+            <li>Sobre</li>
+            <li>Wiki</li>
+          </ul>
+        </div>
+        <div class="col-c">
+          <h4>Trade</h4>
+          <ul>
+            <li>Home</li>
+          </ul>
+        </div>
+        <div class="col-1">
+          Todos os deireitos reservados a <cite>Gabriel Almeida</cite> 2016-2017. Versão <?php echo $version; ?>
+          <ul>
+            <li>Facebook</li>
+            <li>Twiiter</li>
+            <li>Instagram</li>
+          </ul>
         </div>
       </div>
     </section>

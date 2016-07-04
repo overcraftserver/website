@@ -3,22 +3,32 @@
 @import "sections/grid.css";
 @import "sections/btn.css";
 @import "sections/staff.css";
+@import "sections/footer.css";
 
 section#home{
   width: 100%;
-  background: url('../resources/media/images/imgseven.png');
-  background-size: cover;
-  background-position: center;
-  background-color: #EA1E53;
+  //background: url('../resources/media/images/imgseven.png');
+  //background-size: cover;
+  //background-position: center;
+  //background-color: #EA1E53;
   color: #fff;
   box-sizing: border-box;
   text-align: center;
+}
 
+#videobg{
+  z-index: -999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  max-height: 1200px;
 }
 
 section#home .col-1{
   max-width: 960px;
-  padding: 225px 0;
+  padding: 12% 0;
 }
 
 #staff_sub{
@@ -54,7 +64,7 @@ section#dual{
 }
 
 #col-loja{
-  padding: 90px 0;
+  padding: 50px 0;
   background: url("../resources/media/images/imgseven.png");
   background-size: cover;
   background-position: center;
@@ -73,9 +83,39 @@ section#dual{
   margin: 0;
 }
 
+// Dual_blog_downloads
+
+#col-blog, #col-downloads{
+  padding: 90px 0;
+  text-align: center;
+}
+
+#blog, #downloads{
+  text-align: center;
+  width: 350px;
+}
+
+#col-blog{
+  padding: 40px 0;
+  background: #1961E5;
+  color: #fff;
+}
+
+#col-downloads{
+  padding: 30px 0;
+  background: #1FE78B;
+  color: #fff;
+}
+
 @media (max-width: 886px){
   section#home .heading{
     font-size: 3.1rem;
+  }
+
+  #blog, #downloads{
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
 
   .big{

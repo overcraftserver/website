@@ -50,6 +50,10 @@
   max-width: 700px;
 }
 
+.col-c{
+  max-width: 160px;
+}
+
 .col-50 {
   width: 50%; }
 @media (max-width: 886px) {
