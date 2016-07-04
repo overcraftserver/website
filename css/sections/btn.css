@@ -2,7 +2,7 @@
   background: transparent;
   border: none;
   color: #fff;
-  padding: 10px 30px;
+  padding: 15px 30px;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
@@ -11,6 +11,7 @@
   text-transform: uppercase;
   font-size: 1.2rem;
   margin: 10px 0;
+  transition: all .1s ease-in-out;
 }
 
 .btn.dft{
@@ -18,12 +19,24 @@
 }
 
 .btn.full{
-  background: #CA12A1;
-  border-radius: 100px;
+  background: #ffffff;
+  color: #000000;
 }
 
 .btn.full:hover{
-  background: #AD128A;
+  background: #0F0F0F;
+  color: white;
+}
+
+.btn.sharp{
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.btn.sharp:hover{
+  border-color: black;
+  background: black;
 }
 
 .btn.dft:hover{
