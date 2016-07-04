@@ -15,4 +15,8 @@ section#staff a.btn{
   section#staff{
     padding: 20px 0;
   }
+
+  section#ft #footer_dsk{
+    display: none;
+  }
 }

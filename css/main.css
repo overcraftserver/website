@@ -36,9 +36,16 @@ section#home .col-1{
   line-height: 1.8rem;
 }
 
-section#home .heading{
+.heading{
   font-size: 9.5rem;
   transition: font-size .1s ease-in-out;
+}
+
+@media (max-width: 886px){
+  .heading{
+    font-size: 3.1rem;
+    transition: font-size .1s ease-in-out;
+  }
 }
 
 // Section Dual
@@ -48,14 +55,12 @@ section#dual{
 
 #suporte{
   color: #fff;
-  text-align: center;
-  width: 100%;
+  width: 100% !important;
 }
 
 #loja{
   color: #fff;
   width: 100%;
-  text-align: center;
 }
 
 .big{
@@ -69,6 +74,7 @@ section#dual{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: #fff;
 }
 
 #col-sup{
@@ -79,10 +85,30 @@ section#dual{
   background-position: center;
 }
 
+#col-blog{
+  padding: 50px 0;
+  background: url("../resources/media/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#col-downloads{
+  padding: 50px 0;
+  background: url("../resources/media/images/imgseven.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#suporte, #loja, #blog, #downloads{
+  text-align: center;
+}
+
 .col-50 .col-1{
   max-width: 490px;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 // Dual_blog_downloads
@@ -94,7 +120,7 @@ section#dual{
 
 #blog, #downloads{
   text-align: center;
-  width: 350px;
+  margin: 0 auto;
 }
 
 #col-blog{
@@ -113,6 +139,16 @@ section#dual{
   background-size: cover;
   background-color: #1FE78B;
   color: #fff;
+}
+
+footer#mob_footer{
+  background: #000;
+  text-align: center;
+}
+
+footer#mob_footer .col-2{
+  margin: 0;
+  padding: 20px 0;
 }
 
 // STAFF PAGE
@@ -147,15 +183,15 @@ section#dual{
   font-size: 1.6rem;
 }
 
+#direcao, #sub_direcao, #admin, #mod .col-3{
+  padding: 105px 0;
+}
+
 // GLOBAL MEDIA
 
 @media (max-width: 886px){
-  section#home .heading{
-    font-size: 3.1rem;
-  }
-
   section#home{
-    padding: 120px 0;
+    padding: 80px 0;
   }
 
   #blog, #downloads{
@@ -164,23 +200,20 @@ section#dual{
     box-sizing: border-box;
   }
 
-  .big{
-    font-size: 2.1rem;
-    line-height: 2.5rem;
-  }
-
-  #footer_dsk{
+  section#ft #footer_dsk{
     display: none;
-  }
-
-  p.read{
-    max-width: 390px !important;
-    margin: 0 auto;
   }
 
   #mob_footer .col-2{
     margin: 0;
     padding: 20px 0;
     text-align: center;
+  }
+}
+
+@media (max-width: 886px){
+  .big{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
   }
 }
