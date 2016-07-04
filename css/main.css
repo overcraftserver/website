@@ -14,6 +14,7 @@ section#home{
   color: #fff;
   box-sizing: border-box;
   text-align: center;
+  padding: 220px 0;
 }
 
 #videobg{
@@ -28,7 +29,6 @@ section#home{
 
 section#home .col-1{
   max-width: 960px;
-  padding: 12% 0;
 }
 
 #staff_sub{
@@ -114,6 +114,18 @@ section#dual{
   background-color: #1FE78B;
   color: #fff;
 }
+
+// STAFF PAGE
+
+#staffpage{
+  text-align: center;
+}
+
+#staffpage section{
+  padding: 60px 0;
+}
+
+// GLOBAL MEDIA
 
 @media (max-width: 886px){
   section#home .heading{
