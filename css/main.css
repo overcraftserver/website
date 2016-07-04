@@ -7,10 +7,10 @@
 
 section#home{
   width: 100%;
-  //background: url('../resources/media/images/imgseven.png');
-  //background-size: cover;
-  //background-position: center;
-  //background-color: #EA1E53;
+  background: url('../resources/media/images/imgseven.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #EA1E53;
   color: #fff;
   box-sizing: border-box;
   text-align: center;
@@ -66,6 +66,7 @@ section#dual{
 #col-loja{
   padding: 50px 0;
   background: url("../resources/media/images/imgseven.png");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -73,6 +74,7 @@ section#dual{
 #col-sup{
   padding: 50px 0;
   background: url("../resources/media/images/background.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -97,19 +99,29 @@ section#dual{
 
 #col-blog{
   padding: 40px 0;
-  background: #1961E5;
+  background: url("../resources/media/images/background.jpg");
+  background-color: #1961E5;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 
 #col-downloads{
   padding: 30px 0;
-  background: #1FE78B;
+  background: url("../resources/media/images/imgseven.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1FE78B;
   color: #fff;
 }
 
 @media (max-width: 886px){
   section#home .heading{
     font-size: 3.1rem;
+  }
+
+  section#home{
+    padding: 120px 0;
   }
 
   #blog, #downloads{
@@ -119,7 +131,22 @@ section#dual{
   }
 
   .big{
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     line-height: 2.5rem;
+  }
+
+  #footer_dsk{
+    display: none;
+  }
+
+  p.read{
+    max-width: 390px !important;
+    margin: 0 auto;
+  }
+
+  #mob_footer .col-2{
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
   }
 }

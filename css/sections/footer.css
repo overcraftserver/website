@@ -1,3 +1,23 @@
 section#ft{
   background: rgb(0,0,0);
+  font-size: 1.3rem;
+  color: white;
+}
+
+section#ft ul{
+  list-style: none;
+  padding: 0 15px;
+}
+
+section#ft ul li{
+  margin-bottom: 15px;
+}
+
+section#ft ul li a{
+  color: #D536A6;
+}
+
+section#ft .col-2{
+  max-width: 800px;
+  font-size: 1rem;
 }
