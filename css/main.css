@@ -122,7 +122,29 @@ section#dual{
 }
 
 #staffpage section{
-  padding: 60px 0;
+}
+
+#direcao{
+  background: #450ED0;
+}
+
+#sub_direcao{
+  background: #21DB8E;
+}
+
+#admin{
+  background: #EB082D;
+}
+
+#mod{
+  background: #22B8E9;
+}
+
+#direcao, #sub_direcao, #admin, #mod{
+  text-align: center;
+  padding: 120px 0;
+  color: #fff;
+  font-size: 1.6rem;
 }
 
 // GLOBAL MEDIA
