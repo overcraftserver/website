@@ -1,0 +1,19 @@
+table.table{
+  background: white;
+  border: 0;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: auto;
+}
+
+table.table thead{
+  font-weight: 700;
+}
+
+table.table tr{
+  background: red;
+}
+
+table.table tr td{
+  padding: 10px 20px;
+}

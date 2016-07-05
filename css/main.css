@@ -4,6 +4,8 @@
 @import "sections/btn.css";
 @import "sections/staff.css";
 @import "sections/footer.css";
+@import "sections/blogpage.css";
+@import "sections/table.css";
 
 section#home{
   width: 100%;
@@ -176,9 +178,15 @@ footer#mob_footer .col-2{
   background: #22B8E9;
 }
 
-#direcao, #sub_direcao, #admin, #mod{
+#builders{
+  background: #62D430;
+  color: #fff;
   text-align: center;
-  padding: 120px 0;
+}
+
+#direcao, #sub_direcao, #admin, #mod, #builders{
+  text-align: center;
+  padding: 90px 0;
   color: #fff;
   font-size: 1.6rem;
 }
@@ -187,11 +195,10 @@ footer#mob_footer .col-2{
   padding: 105px 0;
 }
 
-// GLOBAL MEDIA
 
 @media (max-width: 886px){
   section#home{
-    padding: 80px 0;
+    padding: 40px 0;
   }
 
   #blog, #downloads{

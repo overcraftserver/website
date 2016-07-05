@@ -1,0 +1,28 @@
+.blogpage{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blogpage h1{
+  color: black;
+}
+
+.blogpage a.btn{
+  text-align: right;
+}
+
+.blogpage article{
+  padding: 10px 10px;
+  margin: 60px 0;
+}
+
+.blogpage article a.btn{
+  float: right;
+  background: black;
+  color: white;
+}
+
+.zebra{
+  background: #F5EEEE;
+  border-radius: 2px;
+}

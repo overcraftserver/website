@@ -4,6 +4,20 @@ section#staff{
   background: #49107A;
 }
 
+.w{
+  color: #DAD8D8;
+}
+
+.g{
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.skin{
+  width: 120px;
+  height: 120px;
+}
+
 section#staff a.btn{
   margin: 0 50px;
 }
@@ -18,5 +32,10 @@ section#staff a.btn{
 
   section#ft #footer_dsk{
     display: none;
+  }
+
+  .staffhbig{
+    font-size: 2.1rem;
+    margin: 20px;
   }
 }
